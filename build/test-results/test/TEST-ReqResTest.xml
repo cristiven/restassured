@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ReqResTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-05T04:33:49" hostname="CristianVargas" time="4.131">
+<testsuite name="ReqResTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-01-06T23:55:29" hostname="CristianVargas" time="4.901">
   <properties/>
-  <testcase name="getSingleUserTest" classname="ReqResTest" time="4.131"/>
-  <system-out><![CDATA[Request method:	GET
-Request URI:	https://reqres.in/api/users/2
+  <testcase name="registerUserTest" classname="ReqResTest" time="4.901"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://reqres.in/api/register
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -13,9 +13,13 @@ Headers:		Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
-Request method:	GET
-Request URI:	https://reqres.in/api/users/2
+Body:
+{
+    "password": "piston",
+    "email": "eve.holt@reqres.in"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/register
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -25,7 +29,11 @@ Headers:		Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
-Body:			<none>
+Body:
+{
+    "password": "piston",
+    "email": "eve.holt@reqres.in"
+}
 ]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
