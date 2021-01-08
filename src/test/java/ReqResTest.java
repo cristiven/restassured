@@ -5,6 +5,8 @@ import io.restassured.http.ContentType;
 import io.restassured.http.Headers;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -18,19 +20,8 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class ReqResTest {
+public class ReqResTest extends BaseTest {
 
-    @Before
-    public void setup(){
-        RestAssured.baseURI = "https://reqres.in";
-        RestAssured.basePath = "/api";
-        // Muestra los log de la ejecución
-        RestAssured.filters(new RequestLoggingFilter(), new RequestLoggingFilter());
-
-        RestAssured.requestSpecification = new RequestSpecBuilder()
-                .setContentType(ContentType.JSON)
-                .build();
-    }
 
     @Test
     public void loginTest(){
@@ -180,6 +171,7 @@ public class ReqResTest {
                 .body(user)
                 .post("register")
                 .then()
+                .spec(defaultResponseSpecification())
                 .statusCode(200)
                 .contentType(equalTo("application/json; charset=utf-8"))
                 .extract()

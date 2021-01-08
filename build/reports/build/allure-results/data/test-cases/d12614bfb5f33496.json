@@ -1,0 +1,89 @@
+{
+  "uid" : "d12614bfb5f33496",
+  "name" : "deleteUserTest",
+  "fullName" : "ReqResTest.deleteUserTest",
+  "historyId" : "95a8ee81c054af5ab59b757216b49df4",
+  "time" : {
+    "start" : 1610067770164,
+    "stop" : 1610067770834,
+    "duration" : 670
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9cbc5792d6b15db0",
+      "name" : "Request",
+      "source" : "9cbc5792d6b15db0.html",
+      "type" : "text/html",
+      "size" : 351
+    }, {
+      "uid" : "f55e1b39595d63a7",
+      "name" : "Request",
+      "source" : "f55e1b39595d63a7.html",
+      "type" : "text/html",
+      "size" : 351
+    }, {
+      "uid" : "2a2e7ec65723ee08",
+      "name" : "HTTP/1.1 204 No Content",
+      "source" : "2a2e7ec65723ee08.html",
+      "type" : "text/html",
+      "size" : 1368
+    }, {
+      "uid" : "db75f4517e0beab8",
+      "name" : "HTTP/1.1 204 No Content",
+      "source" : "db75f4517e0beab8.html",
+      "type" : "text/html",
+      "size" : 1368
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ReqResTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteUserTest"
+  }, {
+    "name" : "suite",
+    "value" : "ReqResTest"
+  }, {
+    "name" : "host",
+    "value" : "CristianVargas"
+  }, {
+    "name" : "thread",
+    "value" : "19992@CristianVargas.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d12614bfb5f33496.json",
+  "parameterValues" : [ ]
+}

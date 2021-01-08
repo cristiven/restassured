@@ -1,0 +1,89 @@
+{
+  "uid" : "cb8937e0329418de",
+  "name" : "loginTest",
+  "fullName" : "ReqResTest.loginTest",
+  "historyId" : "7840cc21abe418ecb85792a6d66d8c68",
+  "time" : {
+    "start" : 1610067761782,
+    "stop" : 1610067762804,
+    "duration" : 1022
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c2058cb377497bf7",
+      "name" : "Request",
+      "source" : "c2058cb377497bf7.html",
+      "type" : "text/html",
+      "size" : 649
+    }, {
+      "uid" : "d20c66eee8599590",
+      "name" : "Request",
+      "source" : "d20c66eee8599590.html",
+      "type" : "text/html",
+      "size" : 649
+    }, {
+      "uid" : "3475f8c60e3c4370",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "3475f8c60e3c4370.html",
+      "type" : "text/html",
+      "size" : 1491
+    }, {
+      "uid" : "2721dc48bd99c5d1",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "2721dc48bd99c5d1.html",
+      "type" : "text/html",
+      "size" : 1491
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ReqResTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTest"
+  }, {
+    "name" : "suite",
+    "value" : "ReqResTest"
+  }, {
+    "name" : "host",
+    "value" : "CristianVargas"
+  }, {
+    "name" : "thread",
+    "value" : "19992@CristianVargas.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb8937e0329418de.json",
+  "parameterValues" : [ ]
+}

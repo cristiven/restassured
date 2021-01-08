@@ -1,0 +1,89 @@
+{
+  "uid" : "7ed0ec3ccf3fce3f",
+  "name" : "getAllUsersTest",
+  "fullName" : "ReqResTest.getAllUsersTest",
+  "historyId" : "fd3e5d9b05e651542b88d535d210f6ff",
+  "time" : {
+    "start" : 1610067762817,
+    "stop" : 1610067763720,
+    "duration" : 903
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "696a4dab2fc88270",
+      "name" : "Request",
+      "source" : "696a4dab2fc88270.html",
+      "type" : "text/html",
+      "size" : 355
+    }, {
+      "uid" : "40fa6ddd55f034ff",
+      "name" : "Request",
+      "source" : "40fa6ddd55f034ff.html",
+      "type" : "text/html",
+      "size" : 355
+    }, {
+      "uid" : "c6355feb157c453",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "c6355feb157c453.html",
+      "type" : "text/html",
+      "size" : 3871
+    }, {
+      "uid" : "f13beb4917e69783",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "f13beb4917e69783.html",
+      "type" : "text/html",
+      "size" : 3871
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "ReqResTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getAllUsersTest"
+  }, {
+    "name" : "suite",
+    "value" : "ReqResTest"
+  }, {
+    "name" : "host",
+    "value" : "CristianVargas"
+  }, {
+    "name" : "thread",
+    "value" : "19992@CristianVargas.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ed0ec3ccf3fce3f.json",
+  "parameterValues" : [ ]
+}
